@@ -1,0 +1,20 @@
+CC=gcc
+CFLAGS=-Wall -Wextra -g -std=c11 -Iinclude
+LDFLAGS=-lncurses
+
+SRCS=$(wildcard src/*.c)
+OBJS=$(SRCS:.c=.o)
+
+TARGET=bin/drone_simulator
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+    $(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)
+
+clean:
+    rm -f $(OBJS) $(TARGET)
+
+run: $(TARGET)
+    ./$(TARGET)
+

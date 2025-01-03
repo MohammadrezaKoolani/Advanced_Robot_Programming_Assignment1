@@ -1,7 +1,7 @@
 # Drone Simulator with Shared Memory
 
 ## Contributors
-- **Sarvenaz Ashoori - S6878764 **
+- **Sarvenaz Ashoori - S6878764**
 - **Mohammadreza Koolani - s5467640**
 
 ---

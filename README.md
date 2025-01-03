@@ -34,7 +34,7 @@ The system utilizes shared memory, semaphores, and pipes for inter-process commu
 1. Clone or download the repository.
 2. Navigate to the directory and build the project using:
    ```bash
-make
+   make
 ```
 3. Run the simulator using:
    ```bash

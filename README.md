@@ -36,9 +36,10 @@ The system utilizes shared memory, semaphores, and pipes for inter-process commu
    ```bash
    make
 ```
+
 3. Run the simulator using:
    ```bash
-make run
+    make run
 ```
 ## Drone Control
 - **Arrow Keys**: Move the Drone (↑, ↓, ←,  →)

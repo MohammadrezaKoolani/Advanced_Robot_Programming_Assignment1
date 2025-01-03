@@ -35,12 +35,12 @@ The system utilizes shared memory, semaphores, and pipes for inter-process commu
 2. Navigate to the directory and build the project using:
    ```bash
    make
-```
+   ```
 
 3. Run the simulator using:
    ```bash
     make run
-```
+   ```
 ## Drone Control
 - **Arrow Keys**: Move the Drone (↑, ↓, ←,  →)
 - **Quit**: press q

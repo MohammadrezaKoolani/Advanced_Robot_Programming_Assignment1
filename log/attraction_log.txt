@@ -1,15 +1,28 @@
-Calculating attraction for drone at (37, 18) and target at (42, 17), distance: 5.099020
-Calculating attraction for drone at (37, 18) and target at (96, 14), distance: 59.135438
-Calculating attraction for drone at (37, 18) and target at (38, 17), distance: 1.414214
-Calculating attraction for drone at (37, 18) and target at (95, 11), distance: 58.420887
-Calculating attraction for drone at (37, 18) and target at (34, 20), distance: 3.605551
-Calculating attraction for drone at (37, 18) and target at (42, 17), distance: 5.099020
-Calculating attraction for drone at (37, 18) and target at (96, 14), distance: 59.135438
-Calculating attraction for drone at (37, 18) and target at (38, 17), distance: 1.414214
-Calculating attraction for drone at (37, 18) and target at (95, 11), distance: 58.420887
-Calculating attraction for drone at (37, 18) and target at (34, 20), distance: 3.605551
-Calculating attraction for drone at (37, 17) and target at (42, 17), distance: 5.000000
-Calculating attraction for drone at (37, 17) and target at (96, 14), distance: 59.076222
-Calculating attraction for drone at (37, 17) and target at (38, 17), distance: 1.000000
-Calculating attraction for drone at (37, 17) and target at (95, 11), distance: 58.309519
-Calculating attraction for drone at (37, 17) and target at (34, 20), distance: 4.242641
+Attraction to Target 0: Force=(-0.294118, -1.176471)
+Attraction to Target 0: Force=(0.000000, -5.000000)
+Attraction to Target 0: Force=(0.000000, 1.250000)
+Attraction to Target 0: Force=(0.000000, 2.500000)
+Attraction to Target 0: Force=(0.000000, -5.000000)
+Attraction to Target 0: Force=(0.000000, 1.666667)
+Attraction to Target 0: Force=(0.000000, 5.000000)
+Attraction to Target 3: Force=(1.000000, -0.500000)
+Attraction to Target 3: Force=(2.000000, -1.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(-2.500000, -2.500000)
+Attraction to Target 3: Force=(1.000000, 2.000000)
+Attraction to Target 3: Force=(0.000000, -2.500000)
+Attraction to Target 3: Force=(-nan, -nan)
+Attraction to Target 0: Force=(1.000000, 0.500000)
+Attraction to Target 0: Force=(1.250000, 1.250000)
+Attraction to Target 0: Force=(0.000000, 5.000000)

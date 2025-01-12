@@ -8,7 +8,7 @@
 // Function to update the drone's position based on forces
 void update_drone_position(Drone* drone, double force_x, double force_y) {
     double mass = 1.0;  // Drone mass (kg)
-    double viscous_friction = 1.0;  // Drone viscous friction coefficient
+    double viscous_friction = 0.1;  // Drone viscous friction coefficient
     
     // Using Euler's method for position update
     drone->velocity_x += force_x / mass;  // Update velocity in X direction

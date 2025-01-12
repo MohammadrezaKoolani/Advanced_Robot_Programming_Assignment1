@@ -8,7 +8,7 @@
 // Watchdog variables
 int last_movement_time = 0;  // Timestamp of last drone movement
 int movement_flag = 0;       // Flag to track if the drone has moved
-const int WATCHDOG_TIMEOUT = 5;  // Timeout in seconds before triggering the watchdog
+const int WATCHDOG_TIMEOUT = 10;  // Timeout in seconds before triggering the watchdog
 
 int main() {
     srand(time(NULL));  // Initialize random number generator
@@ -25,8 +25,8 @@ int main() {
     Blackboard* blackboard = create_shared_memory();
 
     // Generate obstacles and targets in shared memory
-    generate_obstacles(blackboard, 10, COLS, LINES);  // 10 obstacles
-    generate_targets(blackboard, 5, COLS, LINES);      // 5 targets
+    generate_obstacles(blackboard, 6, COLS, LINES);  // 6 obstacles
+    generate_targets(blackboard, 6, COLS, LINES);      // 6 targets
 
     // Initialize the drone in shared memory at position (10, 10)
     Drone drone = {blackboard->drone_x, blackboard->drone_y, 0.0, 0.0};  // Create a Drone instance

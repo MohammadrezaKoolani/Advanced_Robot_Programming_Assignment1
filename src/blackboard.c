@@ -1,4 +1,4 @@
-// blackboard.c
+
 #define _POSIX_C_SOURCE 200809L  // For POSIX shared memory functions
 #include <ncurses.h>
 #include <stdlib.h>
@@ -102,8 +102,8 @@ double calculate_repulsion(int drone_x, int drone_y, int obstacle_x, int obstacl
 
 // Function to calculate attractive force toward a target
 double calculate_attraction(int drone_x, int drone_y, int target_x, int target_y) {
-    double xi = 1.0; // Scaling factor for attractive force
-    double rho_goal = 10.0; // Distance beyond which the attractive force switches to conic model
+    double xi = 0.1; // Scaling factor for attractive force
+    double rho_goal = 5.0; // Distance beyond which the attractive force switches to conic model
 
     // Calculate Euclidean distance between the drone and the target
     double distance = sqrt(pow(drone_x - target_x, 2) + pow(drone_y - target_y, 2));

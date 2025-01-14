@@ -191,7 +191,7 @@ When running the simulation, you will see something similar to the following in 
 - **Enhanced Targets**: Complex scoring and interactions.
 - **Graphical UI**: Replace the text interface with a GUI
 
-##Conclusion
+## Conclusion
 This project demonstrates how to use **shared memory** and **inter-process communication** in a multi-process drone simulation system. It showcases how the drone can interact with obstacles and targets and how **real-time user input** can control the drone's movement. The use of **watchdog** ensures system stability by monitoring the drone's activity.
 
 

@@ -141,7 +141,31 @@ If drone idle time > TIMEOUT:
 	- **attraction_log.txt**: Tracks attractive forces, including object interactions that result in attraction.
 	- **drone_log.txt**: Logs the drone's position throughout the simulation for tracking its movements over time.
 	- **watchdog_log.txt**: Specifically logs any timeout events that occur, including 	timestamps of when the simulation is terminated due to inactivity.
+## Flowchart of Drone Simulation Process
+The flowchart below provides a visual representation of the drone simulator's operational flow. It outlines the system's initialization, user input handling, obstacle and target interactions, position updates, and watchdog monitoring for inactivity.
 
+
+
+### Flowchart Description:
+
+- **Initialization**: The system sets up the environment, creates shared memory, and generates obstacles and targets.
+
+- **User Input**: The drone moves based on user input through arrow keys.
+
+- **Obstacle and Target Interaction**:
+
+	- If the drone is near obstacles, repulsive forces are applied.
+
+	- If the drone is far from targets, attractive forces are applied.
+
+- **Position Update**: The drone's position is updated based on the combined forces.
+
+- **Display**: The updated position is shown on the screen.
+
+- **Watchdog Mechanism**: If the drone remains inactive for more than 5 seconds, the simulation exits due to timeout.
+
+- **Termination**: The simulation can be manually exited by pressing 'q'.
+  
 ## Usage
 Once the simulation begins, the user will observe the system's behavior through output in the terminal. The simulation environment will include the following visual representations:
 

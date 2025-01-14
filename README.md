@@ -110,7 +110,7 @@ Update position based on velocity
 Apply viscous friction to velocity
 ```
 
-##Build Process
+## Build Process
 The project uses a Makefile. Directories include:
 - src/: Source files (main.c, blackboard.c, drone.c).
 - include/: Header files (blackboard.h, common.h).
@@ -145,6 +145,7 @@ If drone idle time > TIMEOUT:
 The flowchart below provides a visual representation of the drone simulator's operational flow. It outlines the system's initialization, user input handling, obstacle and target interactions, position updates, and watchdog monitoring for inactivity.
 
 
+![Drone Simulation Flowchart](https://github.com/MohammadrezaKoolani/Advanced_Robot_Programming_Assignment1/raw/main/Flowchart.png)
 
 ### Flowchart Description:
 
